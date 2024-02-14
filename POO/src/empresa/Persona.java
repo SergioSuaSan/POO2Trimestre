@@ -1,6 +1,6 @@
 package empresa;
 
-public class Persona {
+public abstract class Persona { //Abstract implica clase NO instanciable
 	protected String dni; 			//Los atributos protegidos se pueden heredar, los privados no.
 	protected String nombre;
 	protected long telefono;
